@@ -55,7 +55,8 @@ JAVASCRIPT_TEST_FILES_DIRECTORY="$(pwd)/../HIPAAMessengerTests/"
 # JAVASCRIPT_TEST_FILE="SignupScreenTests.js"
 # JAVASCRIPT_TEST_FILE="SignInScreenTests.js"
 # JAVASCRIPT_TEST_FILE="TouchIDTest.js"
-JAVASCRIPT_TEST_FILE="ConversationsTest.js"
+# JAVASCRIPT_TEST_FILE="ConversationsTest.js"
+JAVASCRIPT_TEST_FILE="TestAll.js"
 
 # The directory into which the instruments command line tool should dump its verbose output:
 TEST_RESULTS_OUTPUT_PATH="/tmp"
