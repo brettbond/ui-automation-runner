@@ -22,6 +22,7 @@
 # so you can switch between them easily when providing a value to the 'SIMULATOR_NAME_OR_DEVICE_UDID' down below.
 
 device_udid_iPhone5s_iOS8="f04d9cefeccf5013e3ce89db955e68d6ce1551c4" # Not my real device UDID, but you get the idea
+simulator_iPhone4s_iOS8="iPhone 4s"
 simulator_iPhone6_iOS8="iPhone 6 (8.2 Simulator)"
 simulator_iPhone6Plus_iOS8="iPhone 6 Plus (8.2 Simulator)"
 simulator_iPad_Air_iOS8="iPad Air"
@@ -50,10 +51,14 @@ JAVASCRIPT_TEST_FILES_DIRECTORY="$(pwd)/../HIPAAMessengerTests/"
 
 # The JavaScript test file you'd like to run. For a suite of tests, have this file simply import and
 # execute other JavaScript tests, so that you can conceivably run a full suite of tests with one command:
-JAVASCRIPT_TEST_FILE="TestAll.js"
+# JAVASCRIPT_TEST_FILE="HomeScreenTests.js"
+# JAVASCRIPT_TEST_FILE="SignupScreenTests.js"
+# JAVASCRIPT_TEST_FILE="SignInScreenTests.js"
+# JAVASCRIPT_TEST_FILE="TouchIDTest.js"
+JAVASCRIPT_TEST_FILE="ConversationsTest.js"
 
 # The directory into which the instruments command line tool should dump its verbose output:
-TEST_RESULTS_OUTPUT_PATH="$(pwd)/../HIPAAMessengerTests/"
+TEST_RESULTS_OUTPUT_PATH="/tmp"
 
 
 
